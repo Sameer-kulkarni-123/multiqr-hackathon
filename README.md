@@ -55,7 +55,7 @@ The model was trained on **Google Colab**.
 2. Run the ```train.ipynb``` file
 
 3. Upload your dataset (Roboflow or local) to Colab or use the given dataset in ```train.ipynb```
-4. Train the model by running:
+4. Train the model by running the file.
 
 5. After training, the **best weights** are saved at: ```runs/detect/exp/weights/best.pt```
 
@@ -70,9 +70,9 @@ Run inference on a folder of images using:
 
 ```python infer.py```
 
-Creates both detection_on_demo_1.json and decoding_on_demo_2.json files.
+Creates both ```detection_on_demo_1.json``` and ```decoding_on_demo_2.json``` files.
 
-**Arguments which can be included with ```python indef.py```**:
+**Arguments which can be included with ```python infer.py```**:
 
 | Argument           | Description                                           | Default |
 |-------------------|-------------------------------------------------------|---------|
